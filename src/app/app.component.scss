@@ -1,0 +1,26 @@
+.topcard-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.device {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-select {
+  max-width: 400px;
+  margin-top: 50px;
+}
+.card {
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.topcard-list .scanner button {
+  margin-top: 10px;
+}

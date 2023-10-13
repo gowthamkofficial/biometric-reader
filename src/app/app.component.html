@@ -1,0 +1,23 @@
+<div class="container">
+  <h3 style="text-align: center;margin-top: 20px;">BIOMETRIC INTEGRATION</h3>
+  <div class="device">
+    <select class="form-select " (change)="deviceChange($event)" aria-label="Default select example">
+      <option selected>Select the device</option>
+      <option value="mantra">Mantra</option>
+      <option value="morpho">Morpho</option>
+      <option value="startek">Startek</option>
+    </select>
+  </div>
+
+  <div class="topcard-list">
+
+    <mantra-device *ngIf="device=='mantra'"></mantra-device>
+
+    <morpo-device *ngIf="device=='morpho'"></morpo-device>
+
+    <startek-device *ngIf="device=='startek'"></startek-device>
+
+  </div>
+
+
+</div>
